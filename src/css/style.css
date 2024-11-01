@@ -1,0 +1,39 @@
+body {
+    cursor: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+td {
+    background-color: green;
+    width: 126px;
+    height: 126px;
+    border: 3px solid grey;
+}
+
+.area {
+    border-collapse: collapse;
+    border: 5px solid grey;
+    margin: auto;
+}
+
+.tablo {
+    margin: auto;
+}
+
+.cursor {
+    --size: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: var(--size);
+    width: var(--size);
+    background: url("../img/hammer1.svg") no-repeat;
+    background-size: 100% auto;
+    transform: translate3d(
+      calc(100vw * var(--cursor-x) - var(--size) / 2), 
+      calc(100vh * var(--cursor-y) - var(--size) / 2), 
+      0) rotateZ(var(--cursor-click, 0deg));
+    pointer-events: none;
+  }
