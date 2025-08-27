@@ -1,6 +1,6 @@
-# Webpack5
-
-[Руководство по настройке Webpack](https://webpack.js.org/guides/)
-[Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)
+Классическая игрушка
+---
+Смысл игры: игровое поле 4*4, рандомно в одной из клеток появляется "гоблин", нужно успеть по нему стукнуть, пока он не перепрыгнул в другую клетку, после 5 промахов игра закнчивается.
+[Demo](https://vidok0577.github.io/events/)
 
 ![CI](https://github.com/vidok0577/events/actions/workflows/web.yml/badge.svg)
